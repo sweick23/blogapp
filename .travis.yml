@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: QpB3VYS/X9ahyn0f3//d3rb5JGoqPcmknGwkVBeWFKU0dee0Fd+7jv0V/073zip0jLLq1/CxyOB/hG6i+H3d/onFGLwtQZSXFziwnW5F86AUB6pZvg0C8ub/BPQkrrhFrVknOviPX8m9PsnUgiKTF8MJXM7IsS+um/PVo9kfyzEeR3nmDr5U0fDMF7oFFb03qKBM4JttW7H/DWXNsA2fU0ZIkgqEq3fMintVsBVSr6a3/NrWSoQZnOIyGlY1XUv+rJHYYxSaf6HILBR8BKhiKrWaM6eUFpMpEIspuOWj+UCynh9G9X5uowmQn6qGcs315H7s5lEKP+mRx2A1ZJVg/GQysX9RvQU2FTzKVSDUI1ZtLMGPhrdCMt+LoqFpotr+gXqwzIXvLo507OLZLRn19OjHE4XVVukmxSl60DFlAlvLMiDeGijJdeea3ZOAmZ1F00a8ERaY/CZhUwXfiKbR9eDdVqjqmJ/5Sr7WhpYv6TjT/cEVqEPMVeYUbx4DzmSmjhsmkCacSUcHqrPcjDwZM7QYzbiwIb72DQCm8xTHv+Hw9IKr/I4I9zsFUHqxLKR9OBMg2x0ypGXJrcU9EBEEkgNj9FqbW237Hk2iTMPiUbzYrU+hOjyik/bt0Irph7nTEADZhISAsI1TUVdcPMnZ/Esom73O421cbgrNmD3x+sA=
+  app: radiant-gorge-79572
+  on:
+    repo: sweick23/blogapp
